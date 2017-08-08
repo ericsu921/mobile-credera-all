@@ -5,8 +5,11 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 import com.google.firebase.database.DatabaseReference;
+
+import java.util.ArrayList;
 
 public class PostEntryActivity extends AppCompatActivity {
 
@@ -17,14 +20,15 @@ public class PostEntryActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        final Button postButton = (Button) findViewById(R.id.post_button);
+        final EditText postContent = (EditText) findViewById(R.id.post_content);
 
+        final Button postButton = (Button) findViewById(R.id.post_button);
         postButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Post post = new Post();
 
-                post.setContent("Android Team, Best Team.");
+                post.setContent(postContent.getText().toString());
                 post.setFirstName("Cody");
                 post.setLastName("Case");
                 post.setTimePosted("Now");
@@ -32,6 +36,7 @@ public class PostEntryActivity extends AppCompatActivity {
                 DatabaseReference ref = FireBaseHelper.getReference();
 
                 FireBaseHelper.submitPost(ref, post);
+                finish();
             }
         });
     }
