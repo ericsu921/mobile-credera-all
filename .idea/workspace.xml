@@ -75,8 +75,8 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="48" />
+            <state relative-caret-position="37">
+              <caret line="8" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="48" />
               <folding />
             </state>
           </provider>
@@ -2050,6 +2050,7 @@
         <option value="$PROJECT_DIR$/build.gradle" />
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/google-services.json" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
   </component>
@@ -2571,8 +2572,8 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="48" />
+        <state relative-caret-position="37">
+          <caret line="8" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="48" />
           <folding />
         </state>
       </provider>
