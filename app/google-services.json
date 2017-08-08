@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "296966913465",
+    "firebase_url": "https://credera-mobile.firebaseio.com",
+    "project_id": "credera-mobile",
+    "storage_bucket": "credera-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:296966913465:android:fa79c9fdd1bfbf17",
+        "android_client_info": {
+          "package_name": "com.credera.mobile.crederall"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "296966913465-iir8ls39sf7u9o2a57nleop4qj7h9c1g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCjC9vBVSqLhDcOWkiNkTYzOYWjbkNLjwo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
